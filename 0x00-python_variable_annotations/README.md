@@ -1,5 +1,8 @@
 # Python_variable_annotations
 ![images](images/static-type.png)
+
+## Concepts
+[Advance Python](advance-py.md) 
 ### Resources
 **Read or watch**
 * [Python 3 typing documentation](https://docs.python.org/3/library/typing.html)
