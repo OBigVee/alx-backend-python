@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" Module to generate async list comprehension"""
+""" Module to generate async list comprehension """
 import asyncio
 import random
 from typing import Generator
