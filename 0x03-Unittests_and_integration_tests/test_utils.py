@@ -55,11 +55,11 @@ class TestGetJson(unittest.TestCase):
 class TestMemoize(unittest.TestCase):
     """test memoize"""
     def test_memoize():
-        """ assert called once """
+        """assert called once"""
         class TestClass:
-            """Test class """
+            """Test class"""
             def a_method(self):
-                """ a_method"""
+                """a_method"""
                 return 42
 
             @memoize
