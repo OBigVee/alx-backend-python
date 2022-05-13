@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-""" """
+"""Client Test"""
 import unittest
 
 from parameterized import parameterized
@@ -8,14 +8,15 @@ from client import GithubOrgClient
 
 
 class TestGithubOrgClient(unittest.TestCase):
-    """ """
+    """Test GithubOrgClient"""
+
     @parameterized.expand(
         [
             ("google"),
             ("abc"),
         ]
     )
-    @patch("client.get_json", return_value={"payload":True})
+    @patch("client.get_json", return_value={"payload": True})
     def test_org(self, org_name, mock_get):
         """return value"""
         tClient = GithubOrgClient(org_name)
