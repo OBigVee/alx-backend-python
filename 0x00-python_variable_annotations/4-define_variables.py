@@ -1,6 +1,5 @@
-#!/usr/bin/python
+#!/usr/bin/env python
 """annotate variables with defined values"""
-
 
 a: int = 1
 pi: float = 3.14
