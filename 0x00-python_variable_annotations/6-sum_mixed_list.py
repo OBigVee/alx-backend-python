@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """type-annotation"""
 from typing import List, Union
 
